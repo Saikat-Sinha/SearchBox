@@ -24,7 +24,7 @@ export const SuggestionsContainer = styled.ul`
   padding: 0;
   position: relative;
   height: 520px;
-  overflow: scroll;
+  overflow: auto;
   width: 120%;
   display: flex;
   flex-direction: column;
