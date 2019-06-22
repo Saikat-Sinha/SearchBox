@@ -29,6 +29,10 @@ export const SuggestionsContainer = styled.ul`
   display: flex;
   flex-direction: column;
   left: -10%;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
 `;
 
 export const SuggestionItem = styled.li`
